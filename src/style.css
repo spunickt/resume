@@ -1,0 +1,62 @@
+body {
+  font-family: sans-serif;
+  width: auto;
+}
+
+.container{
+  width: 595px;
+  min-height: 842px;
+  margin: 94.5px auto;
+}
+
+.preheader {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.foto img {
+  border-radius: 20%;
+}
+
+.iconify {
+  font-size: 32px;
+}
+
+header div.personal-info div.links {
+  display: flex;
+  justify-items: center;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: center;
+}
+
+header div.links p {
+  text-align: center;
+  margin-left: 10px;
+}
+
+/* profile */
+
+section {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+section table {
+ margin: auto;
+ text-align: center;
+}
+
+section table th, td {
+  padding: 10px;
+  border: 2px solid black;
+}
